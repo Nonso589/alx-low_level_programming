@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - write a program to print lower case Return: 0
+ * main - write a program to print lower case
+ * Return: Always 0
  */
 int main(void)
 {
