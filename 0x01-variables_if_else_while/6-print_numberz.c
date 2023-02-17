@@ -1,8 +1,8 @@
 #include <stadio.h>
 
 /**
- * main - print the alphabets in reverse
- * Return: 0
+ * main - print the digits in base 10
+ * Return: ALways 0
  */
 int main(void)
 {
