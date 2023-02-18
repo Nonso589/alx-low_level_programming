@@ -1,17 +1,19 @@
-#include <stadio.h>
+#include <stdio.h>
 
 /**
- * main - print the digits in base 10
- * Return: ALways 0
+ * main - prints all single digit numbers of base 10 starting from 0
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int num;
+	int num = 0;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
+	while (num <= 9)
+	{
+		putchar(num + '0');
+		num++
+	}
 	putchar('\n');
-
 	return (0);
 }
