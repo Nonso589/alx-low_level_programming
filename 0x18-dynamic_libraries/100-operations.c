@@ -1,59 +1,48 @@
-/* 100-operations.c */
-
 /**
- * add - Adds two integers.
- * @a: The first integer.
- * @b: The second integer.
- *
- * Return: The sum of the two integers.
+ * add - addition opertaion
+ * @a: number
+ * @b: nuber
+ * Return: result
  */
 int add(int a, int b)
 {
 	return (a + b);
 }
-
 /**
- * sub - Subtracts two integers.
- * @a: The first integer.
- * @b: The second integer.
- *
- * Return: The difference between the two integers.
+ * sub - subtraction operation
+ * @a: number
+ * @b: nuber
+ * Return: result
  */
 int sub(int a, int b)
 {
 	return (a - b);
 }
-
 /**
- * mul - Multiplies two integers.
- * @a: The first integer.
- * @b: The second integer.
- *
- * Return: The product of the two integers.
+ * mul - multiplication operation
+ * @a: number
+ * @b: nuber
+ * Return: result
  */
 int mul(int a, int b)
 {
 	return (a * b);
 }
-
 /**
- * div - Divides two integers.
- * @a: The first integer.
- * @b: The second integer.
- *
- * Return: The quotient of the two integers.
+ * div - division operation
+ * @a: number
+ * @b: nuber
+ * Return: result
  */
 int div(int a, int b)
 {
 	return (a / b);
 }
-
 /**
- * mod - Computes the remainder of dividing two integers.
- * @a: The first integer.
- * @b: The second integer.
- *
- * Return: The remainder of dividing the two integers.
+ * mod - modulus operation
+ * @a: number
+ * @b: nuber
+ * Return: result
  */
 int mod(int a, int b)
 {
